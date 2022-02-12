@@ -40,7 +40,7 @@ class findMedianSortedArray {
 						int median = sortedNums.size()/2;
 
 						String result = String.join(" | ", sortedNums.toString());
-						System.out.println("Combined Sorted Lists:\n" + result + "\nMedian (rounded-up):\n" + sortedNums.get(median));
+						System.out.println("Combined Sorted Lists:\n" + result + "\nMedian:\n" + sortedNums.get(median));
 
 						validArray = true;
 					}
